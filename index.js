@@ -15,6 +15,6 @@ var button = buttons.ActionButton({
 
 function handleClick(state) {
     tabs.activeTab.attach({
-        contentScript: self.url("replace.js")
+        contentScript: self.data.url("replace.js")
     });
 }
